@@ -28,4 +28,7 @@ chrome.tabs.getSelected(null, (tab) => {
         open(`https://www.udemy.com/${courseID}`)
         open(`https://${myOrg}.udemy.com/${courseID}`)
     }
+    else {
+        open(`https://${myOrg}.udemy.com/home/my-courses/learning/`)
+    }
 })
